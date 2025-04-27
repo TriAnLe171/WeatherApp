@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Weather App</string>
+    <string name="weather_app">Weather App</string>
+    <string name="welcome_to_weather_app">Welcome to Weather App</string>
+    <string name="detail">Detail</string>
+    <string name="city">City: %1$s</string>
+    <string name="temperature">Temperature: %1$s</string>
+    <string name="description">Description: %1$s</string>
+    <string name="humidity">Humidity: %1$s</string>
+    <string name="pressure">Pressure: %1$s</string>
+    <string name="wind_speed">Wind Speed: %1$s</string>
+    <string name="sunrise">Sunrise: %1$s</string>
+    <string name="sunset">Sunset: %1$s</string>
+    <string name="error">Error: %1$s</string>
+    <string name="please_add_a_city">Please add a city</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_a_new_city">Add a new city:</string>
+    <string name="city_name">City Name</string>
+    <string name="click_to_see_details">Click to see details</string>
+</resources>
