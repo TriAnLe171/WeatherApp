@@ -1,4 +1,3 @@
-README.md
 # WeatherApp
 
 WeatherApp is a simple Android application built with Jetpack Compose that allows users to manage a list of cities and view detailed weather information for each city. The app fetches weather data from the OpenWeatherMap API and displays it in a user-friendly interface.
@@ -32,13 +31,15 @@ WeatherApp is a simple Android application built with Jetpack Compose that allow
 ## Screenshots
 
 ### City List Screen
-![City List Screen](https://via.placeholder.com/400x800?text=City+List+Screen)
+![image](https://github.com/user-attachments/assets/1b2351c8-3cbd-4459-a5e0-671f82b65fe4)
+
 
 ### Weather Details Screen
-![Weather Details Screen](https://via.placeholder.com/400x800?text=Weather+Details+Screen)
+![image](https://github.com/user-attachments/assets/577f86a8-cdc3-4334-8d3d-e323cb31538d)
+
 
 ### Splash Screen
-![Splash Screen](https://via.placeholder.com/400x800?text=Splash+Screen)
+![image](https://github.com/user-attachments/assets/8ca5c33b-644d-4695-be9e-4f8819a217de)
 
 ---
 
@@ -150,4 +151,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 For any questions or feedback, feel free to reach out:
 
 - **Email**: triandole@gmail.com
-- **GitHub**: [TriAnLe171](https://github.com/TriAnLe171
+- **GitHub**: [TriAnLe171](https://github.com/TriAnLe171)
