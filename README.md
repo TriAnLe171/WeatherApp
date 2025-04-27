@@ -17,7 +17,6 @@ WeatherApp is a simple Android application built with Jetpack Compose that allow
   - Shows detailed weather information, including:
     - Current temperature
     - Weather description
-    - Min and max temperatures
     - Humidity
     - Wind speed
     - Sunrise and sunset times
@@ -90,24 +89,29 @@ The app follows a **MVVM (Model-View-ViewModel)** architecture:
 Add the following dependencies to your `build.gradle` file:
 
 ```gradle
-// Jetpack Compose
-implementation "androidx.compose.ui:ui:1.5.1"
-implementation "androidx.compose.material3:material3:1.1.0"
-
-// Hilt
-implementation "com.google.dagger:hilt-android:2.48"
-kapt "com.google.dagger:hilt-compiler:2.48"
-
-// Retrofit
-implementation "com.squareup.retrofit2:retrofit:2.9.0"
-implementation "com.squareup.retrofit2:converter-gson:2.9.0"
-
-// Coil
-implementation "io.coil-kt:coil-compose:2.4.0"
-
-// Testing
-androidTestImplementation "androidx.compose.ui:ui-test-junit4:1.5.1"
-debugImplementation "androidx.compose.ui:ui-test-manifest:1.5.1"
+configurations.all {
+    exclude(group = "xmlpull", module = "xmlpull")
+}
+dependencies {
+  ...
+  // Navigation
+  implementation(libs.androidx.navigation)
+  implementation(libs.androidx.navigation.compose)
+  
+  // Hilt Dependency Injection
+  implementation(libs.hilt.android)
+  kapt(libs.hilt.compiler)
+  implementation(libs.androidx.hilt.navigation.compose)
+  androidTestImplementation(libs.hilt.android.testing)
+  testImplementation(libs.hilt.android.testing)
+  
+  // Retrofit
+  implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+  implementation(libs.retrofit)
+  implementation(libs.kotlinx.serialization)
+  implementation(libs.serialization.converter)
+  implementation(libs.coil)
+}
 ```
 
 ---
