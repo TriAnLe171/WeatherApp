@@ -15,9 +15,11 @@ WeatherApp is a simple Android application built with Jetpack Compose that allow
 - **Weather Details Screen**:
   - Fetches and displays weather data for the selected city using the OpenWeatherMap API.
   - Shows detailed weather information, including:
+    - City name
     - Current temperature
     - Weather description
     - Humidity
+    - Pressure
     - Wind speed
     - Sunrise and sunset times
   - Displays a weather icon fetched dynamically using the Coil library.
